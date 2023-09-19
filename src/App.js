@@ -1,10 +1,10 @@
 import React from 'react'
-import TodoList from './components/TodoList/TodoList'
+import ChangeColorApp from './components/ChangeColor/ChangeColor';
 
 function App() {
   return (
     <div>
-      <TodoList />
+      <ChangeColorApp />
     </div>
   )
 }

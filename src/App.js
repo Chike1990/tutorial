@@ -1,10 +1,10 @@
 import React from 'react'
-import ChangeColorApp from './components/ChangeColor/ChangeColor';
+import ContactForm from './components/ContactForm/ContactForm';
 
 function App() {
   return (
     <div>
-      <ChangeColorApp />
+     <ContactForm />
     </div>
   )
 }

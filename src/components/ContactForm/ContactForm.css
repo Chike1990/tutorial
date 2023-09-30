@@ -1,0 +1,63 @@
+/* ContactForm.css */
+
+/* Style the form container */
+div {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Style the form header */
+  h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  /* Style form fields and labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add spacing between form sections */
+  div > div {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the message textarea */
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  

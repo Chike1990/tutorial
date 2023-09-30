@@ -68,3 +68,36 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Your app's src folder should look like this:
+In your src folder, create 4 folders namely: components, services, tests, and styles.
+Thereafter, create 4 .js files in the components folder, namely: Navbar.js, FeaturedMovies.js, MovieCategories.js, and Footer.js.
+Then, in services folder, create a file, api.js, to handles your axios calls.
+Create 4 files in your tests files, namely: Navbar.test.js, FeaturedMovies.test.js, MovieCategories.test.js, and Footer.test.js to house your tests.
+app.js and index.js should be at the root -the same level as your folders. Look at the  diagram below
+
+src/
+    components/
+       Navbar.js
+       FeaturedMovies.js
+       MovieCategories.js
+       Footer.js
+
+    services/
+       api.js
+
+    tests/  
+       Navbar.test.js
+       FeaturedMovies.test.js
+       MovieCategories.test.js
+       Footer.test.js
+
+    styles/
+       Navbar.css
+       FeaturedMovies.css
+       MovieCategories.css
+       Footer.css
+
+    App.js
+    index.js
